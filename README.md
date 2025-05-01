@@ -42,13 +42,52 @@ This research was part of a broader effort to understand how early colostrum int
 ---
 
 ## 🚀 How to Use
+Requirements: MATLAB R2020b or later with the Image Processing Toolbox installed.
 
-1. Open MATLAB (2020b or newer with Image Processing Toolbox).
-2. Place your `.tif` images in `/sample_images/`.
-3. Run:
-   - `roi_mask_generation.m` to segment tissue types
-   - `proliferation_analysis_roi.m` to calculate cell area ratios
-4. Output Excel files and segmented images will appear in `/results/`.
+📌 Step 1: ROI-Based Tissue Segmentation
+Navigate to the folder:
+1) Image Segmentation - ROI Dissection
+Run the script inside to manually draw Regions of Interest (ROIs) that segment the tissue image into:
+
+Mucosa
+
+Connective
+
+Muscle
+
+Segmented images will be saved and used for the next step.
+
+💡 Use the H&E-stained image as a guide when drawing ROIs to ensure anatomical accuracy.
+
+📌 Step 2: Tissue Area Masking and Cell Quantification
+Navigate to the folder:
+
+2) Tissue Area Masking
+Run the following MATLAB scripts in this order:
+
+areaMain.m – Main driver script for initializing analysis
+
+colorAreaCalculator.m – Applies HSV-based color thresholding
+
+proliferationMask.m – Identifies and masks proliferating (brown) cells
+
+nonproliferationMask.m – Identifies and masks non-proliferating (blue) cells
+
+totalTissueAreaMask.m – Captures and calculates total tissue area
+
+📤 Output
+Segmented tissue images (mucosa, connective, muscle)
+
+Binary masks of cell populations
+
+An Excel file summarizing:
+
+Proliferating cell area
+
+Non-proliferating cell area
+
+Total tissue area for each classification
+
 
 ---
 
