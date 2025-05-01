@@ -1,42 +1,33 @@
 # Preparing Undergraduates Through Mentoring Towards PhD's – Image-Based Quantification
-Created two MATLAB codes using ROI and image-based processing to quantify the area of proliferation cells in three different types of tissues for numerous piglet uteri. Automated quantification of proliferating cell area, reducing analysis time from days to hours for biologists. Used image J for image analysis.
 
-This repository contains two MATLAB scripts developed to support image-based quantification of proliferation areas using Regions of Interest (ROI). The work was completed by **Sashiel Vagus** as part of a mentoring project aimed at preparing undergraduates for Ph.D. programs.
+This repository contains two MATLAB scripts developed to support the image-based quantification of proliferating versus non-proliferating cells in biological tissue samples. The work was conducted by **Sashiel Vagus** and **Brooke Tyler** under the mentorship of **Dr. Uduak George** at **San Diego State University**, in collaboration with researchers at **Purdue University**.
 
-##  Project Summary
+## 📌 Project Summary
 
-These scripts were designed to assist in analyzing cellular proliferation through image processing. They take microscopy images and use ROI-based segmentation and thresholding to calculate the total proliferation area.
+The purpose of this project is to assist in automating the determination of the ratio of proliferating to non-proliferating cells within a given tissue. The original study focused on gilt uterus tissue samples, with separate tissue classifications. A unique image segmentation script was developed to isolate tissue types based on hand-drawn Regions of Interest (ROIs), and a masking script was used to quantify tissue area.
 
-##  Technologies
+Depending on the user's needs, the two codes may be executed independently or together. The tissue area masking code also generates an Excel file listing the order and measurement of segmented areas.
 
-- MATLAB
-- Image Processing Toolbox
+## 🧠 Research Acknowledgments
 
-##  File Structure
+- **Biological images** were provided by  
+  - Dr. Theresa Casey (Department of Animal Sciences, Purdue University)  
+  - Dr. Ariany Suarez-Trujillo  
+  - Kelsey Teeple
 
+- **Project supervised by**: Dr. Uduak George (San Diego State University)
 
-##  Requirements
+- **Funding**: Supported by a PUMP Research Grant (NSF Grant No. DMS-1916494)
 
-- MATLAB R2020b or later
-- Image Processing Toolbox
+## 👨‍🔬 Authors
 
-##  How to Use
+- **Brooke Tyler**  
+- **Sashiel Vagus** ([GitHub Profile](https://github.com/sashielvagus))
 
-1. Clone or download this repository.
-2. Open `proliferation_analysis_roi.m` in MATLAB.
-3. Place your microscopy images into the `sample_images/` folder.
-4. Run the script. The output files (e.g., area measurements, processed images) will be saved in the `results/` directory.
+## ⚙️ Technologies Used
 
-##  Notes
+- **MATLAB Version**: 9.9.0.1467703 (R2020b)  
+- **Image Processing Toolbox**: Version 11.2 (R2020b)
 
-- ROI masks can be defined manually or generated using `roi_mask_generation.m`.
-- Thresholding parameters are adjustable depending on image quality.
+## 📁 File Structure
 
-##  Author
-
-**Sashiel Vagus**  
-[GitHub Profile →](https://github.com/sashielvagus)
-
----
-
-This project was completed under the supervision of **Dr. George** as part of a mentoring program preparing undergraduates for Ph.D. research pathways.
