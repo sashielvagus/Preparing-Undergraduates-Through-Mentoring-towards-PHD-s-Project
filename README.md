@@ -29,5 +29,5 @@ Depending on the user's needs, the two codes may be executed independently or to
 - **MATLAB Version**: 9.9.0.1467703 (R2020b)  
 - **Image Processing Toolbox**: Version 11.2 (R2020b)
 
-## 📁 File Structure
+
 
