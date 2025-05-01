@@ -1,7 +1,5 @@
-# sashielvagus-Preparing-Undergraduates-Through-Mentoring-towards-PHD-s-Project
-Created two MATLAB codes using ROI and image-based processing to quantify the area of proliferation cells in three different types of tissues for numerous piglet uteri. Automated quantification of proliferating cell area, reducing analysis time from days to hours for biologists. Used image J for image analysis.
-
 # Preparing Undergraduates Through Mentoring Towards PhD's – Image-Based Quantification
+Created two MATLAB codes using ROI and image-based processing to quantify the area of proliferation cells in three different types of tissues for numerous piglet uteri. Automated quantification of proliferating cell area, reducing analysis time from days to hours for biologists. Used image J for image analysis.
 
 This repository contains two MATLAB scripts developed to support image-based quantification of proliferation areas using Regions of Interest (ROI). The work was completed by **Sashiel Vagus** as part of a mentoring project aimed at preparing undergraduates for Ph.D. programs.
 
