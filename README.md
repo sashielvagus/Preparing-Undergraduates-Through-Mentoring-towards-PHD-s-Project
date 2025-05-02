@@ -4,7 +4,7 @@ This repository contains two MATLAB scripts developed for image-based segmentati
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 The purpose of this project was to automate the quantification of proliferating versus non-proliferating cells in gilt uterus tissue, collected during a study on postnatal colostrum intake. Two MATLAB algorithms were developed:
 
@@ -18,7 +18,7 @@ This research was part of a broader effort to understand how early colostrum int
 
 ---
 
-## 📚 Scientific Background
+## Scientific Background
 
 - **Sample source**: Gilt uteri from Purdue University's swine research farm  
 - **Staining**: Ki67 for proliferating cells, H&E as visual reference  
@@ -29,7 +29,7 @@ This research was part of a broader effort to understand how early colostrum int
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - MATLAB (R2020b - Version 9.9.0.1467703)
 - Image Processing Toolbox (Version 11.2)
@@ -41,10 +41,10 @@ This research was part of a broader effort to understand how early colostrum int
 
 ---
 
-## 🚀 How to Use
+## How to Use
 Requirements: MATLAB R2020b or later with the Image Processing Toolbox installed.
 
-📌 Step 1: ROI-Based Tissue Segmentation
+Step 1: ROI-Based Tissue Segmentation
 Navigate to the folder:
 1) Image Segmentation - ROI Dissection
 Run the script inside to manually draw Regions of Interest (ROIs) that segment the tissue image into:
@@ -57,9 +57,9 @@ Muscle
 
 Segmented images will be saved and used for the next step.
 
-💡 Use the H&E-stained image as a guide when drawing ROIs to ensure anatomical accuracy.
+Use the H&E-stained image as a guide when drawing ROIs to ensure anatomical accuracy.
 
-📌 Step 2: Tissue Area Masking and Cell Quantification
+Step 2: Tissue Area Masking and Cell Quantification
 Navigate to the folder:
 
 2) Tissue Area Masking
@@ -75,7 +75,7 @@ nonproliferationMask.m – Identifies and masks non-proliferating (blue) cells
 
 totalTissueAreaMask.m – Captures and calculates total tissue area
 
-📤 Output
+Output
 Segmented tissue images (mucosa, connective, muscle)
 
 Binary masks of cell populations
@@ -91,7 +91,7 @@ Total tissue area for each classification
 
 ---
 
-## 📜 Attribution & Acknowledgments
+## Attribution & Acknowledgments
 
 - **Images provided by**:
   - Dr. Theresa Casey, Department of Animal Sciences, Purdue University
@@ -107,13 +107,13 @@ Total tissue area for each classification
 
 ---
 
-## 🧾 Citation
+## Citation
 
 > Tyler, B., & Vagus, S. et al. (2021). *Predictive Multi-Scale Modeling of Postnatal Regulation of Protein Synthesis in Gilts*. The PUMP Journal of Undergraduate Research.
 
 ---
 
-## 📩 Contact
+## Contact
 
 **Sashiel Vagus**  
 San Diego State University  
