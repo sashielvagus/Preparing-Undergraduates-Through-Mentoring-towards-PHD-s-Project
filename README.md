@@ -39,8 +39,6 @@ This research was part of a broader effort to understand how early colostrum int
 ---
 
 
----
-
 ## How to Use
 Requirements: MATLAB R2020b or later with the Image Processing Toolbox installed.
 
