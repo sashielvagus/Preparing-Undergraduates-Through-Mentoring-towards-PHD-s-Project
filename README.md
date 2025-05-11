@@ -120,7 +120,7 @@ GitHub: [@sashielvagus](https://github.com/sashielvagus)
 
 ---
 
-## 🪪 License
+## License
 
 This repository is shared under an academic research license. For permission to reuse or cite the work, please contact the author(s).
 
