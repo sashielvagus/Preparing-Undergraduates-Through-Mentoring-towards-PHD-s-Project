@@ -130,7 +130,7 @@ Click the poster image to view the full PDF version.
 
 **Sashiel Vagus**  
 San Diego State University  
-Email: svagus@sdsu.edu  
+Email: svagus2@sdsu.edu  
 GitHub: [@sashielvagus](https://github.com/sashielvagus)
 
 ---
