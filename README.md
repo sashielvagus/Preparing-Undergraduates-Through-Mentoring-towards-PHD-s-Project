@@ -37,54 +37,58 @@ This research was part of a broader effort to understand how early colostrum int
 - Adobe Photoshop (for panorama assembly)
 
 ---
-
-
 ## How to Use
-Requirements: MATLAB R2020b or later with the Image Processing Toolbox installed.
 
-Step 1: ROI-Based Tissue Segmentation
-Navigate to the folder:
-1) Image Segmentation - ROI Dissection
-Run the script inside to manually draw Regions of Interest (ROIs) that segment the tissue image into:
+**Requirements:**  
+- MATLAB R2020b or later  
+- Image Processing Toolbox  
 
-Mucosa
+---
 
-Connective
+### Step 1: ROI-Based Tissue Segmentation
 
-Muscle
+1. Navigate to the folder:  
+   `1) Image Segmentation - ROI Dissection`
 
-Segmented images will be saved and used for the next step.
+2. Run the script inside to manually draw **Regions of Interest (ROIs)** that segment the tissue image into:
+   - **Mucosa**
+   - **Connective**
+   - **Muscle**
 
-Use the H&E-stained image as a guide when drawing ROIs to ensure anatomical accuracy.
+3. Use the **H&E-stained image** as a guide for accurate anatomical ROI drawing.
 
-Step 2: Tissue Area Masking and Cell Quantification
-Navigate to the folder:
+> Segmented images will be saved for use in the next step.
 
-2) Tissue Area Masking
-Run the following MATLAB scripts in this order:
+---
 
-areaMain.m – Main driver script for initializing analysis
+### Step 2: Tissue Area Masking and Cell Quantification
 
-colorAreaCalculator.m – Applies HSV-based color thresholding
+1. Navigate to the folder:  
+   `2) Tissue Area Masking`
 
-proliferationMask.m – Identifies and masks proliferating (brown) cells
+2. Run the following MATLAB scripts in this order:
 
-nonproliferationMask.m – Identifies and masks non-proliferating (blue) cells
+   - `areaMain.m` – Initializes the analysis pipeline  
+   - `colorAreaCalculator.m` – Applies HSV-based color thresholding  
+   - `proliferationMask.m` – Masks proliferating (brown) cells  
+   - `nonproliferationMask.m` – Masks non-proliferating (blue) cells  
+   - `totalTissueAreaMask.m` – Calculates total tissue area  
 
-totalTissueAreaMask.m – Captures and calculates total tissue area
+---
 
-Output
-Segmented tissue images (mucosa, connective, muscle)
+### Output Files
 
-Binary masks of cell populations
-
-An Excel file summarizing:
-
-Proliferating cell area
-
-Non-proliferating cell area
-
-Total tissue area for each classification
+- Segmented tissue images for:
+  - Mucosa
+  - Connective
+  - Muscle
+- Binary masks of:
+  - Proliferating cells
+  - Non-proliferating cells
+- An Excel summary containing:
+  - Proliferating cell area  
+  - Non-proliferating cell area  
+  - Total tissue area for each tissue type
 
 
 ---
