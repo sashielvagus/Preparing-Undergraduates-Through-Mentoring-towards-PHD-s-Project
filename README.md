@@ -92,7 +92,10 @@ Total tissue area for each classification
 ## Poster Presentation
 
 This project was presented at the 2021 SDSU Student Research Symposium (SRS).
-[Click here to view the full research poster (PDF)](SRS_Poster_2021.pdf)
+
+[![SRS Poster Preview](SRS_Poster_2021.png)]
+
+
 
 ---
 
